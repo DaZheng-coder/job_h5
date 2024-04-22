@@ -1,8 +1,8 @@
 {
-  "name": "jm_talent_h5",
+  "name": "jm_job_h5",
   "version": "1.0.0",
   "private": true,
-  "description": "荆门人才服务移动端",
+  "description": "荆门就业服务移动端",
   "templateInfo": {
     "name": "default",
     "typescript": false,
