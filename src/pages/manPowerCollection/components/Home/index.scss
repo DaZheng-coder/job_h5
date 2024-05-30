@@ -1,0 +1,15 @@
+.container-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 11.86rem;
+  .container-cover-img {
+    width: 9.11rem;
+    height: 9.11rem;
+  }
+  .container-cover-text {
+    width: 8.11rem;
+    height: 3.8rem;
+  }
+}

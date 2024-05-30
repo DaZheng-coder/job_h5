@@ -1,0 +1,33 @@
+.bottom_bar {
+  width: 17.28rem;
+  height: 2.99rem;
+  position: fixed;
+  left: 0.7rem;
+  bottom: 1.72rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 1.49rem;
+  border: 0.05rem solid #eeeeee;
+  display: flex;
+  justify-content: space-around;
+  .active {
+    color: #ffa01c !important;
+  }
+  .item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303133;
+    img {
+      width: 1.13rem;
+      height: 1.13rem;
+    }
+    .item_title {
+      font-weight: 500;
+      font-size: 0.54rem;
+      line-height: 0.64rem;
+      margin-top: 0.05rem;
+    }
+  }
+}

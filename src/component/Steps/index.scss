@@ -1,0 +1,70 @@
+.steps_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.66rem;
+  background: white;
+  .step {
+    width: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    .row {
+      position: absolute;
+      height: 0.2rem;
+      width: 3.5rem;
+      margin-left: 1.75rem;
+      background: #eeeeee;
+      top: 20%;
+      left: 10%;
+      z-index: 1;
+    }
+    .active-line {
+      background: #f7d297;
+    }
+    .title {
+      font-weight: 400;
+      font-size: 0.62rem;
+      color: #999999;
+      line-height: 1.23rem;
+      margin-top: 0.19rem;
+      white-space: nowrap;
+    }
+    .active {
+      font-size: 0.62rem;
+      color: #000000;
+      line-height: 1.23rem;
+      font-weight: 400;
+    }
+    .step_active {
+      width: 1.28rem;
+      height: 1.28rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .circle {
+        width: 0.3rem;
+        height: 0.3rem;
+        border-radius: 50%;
+        background: white;
+        border: 0.236rem solid rgba(255, 160, 28, 1);
+        z-index: 2;
+      }
+    }
+    .step_unactive {
+      width: 1.28rem;
+      height: 1.28rem;
+      background: rgba(238, 238, 238, 1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 400;
+      font-size: 0.62rem;
+      color: rgba(153, 153, 153, 0.6);
+      line-height: 0.72rem;
+      z-index: 2;
+    }
+  }
+}

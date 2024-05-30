@@ -1,0 +1,33 @@
+.menu_item {
+  padding: 0.5rem 0.63rem;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 0.45rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15.72rem;
+  box-shadow: 0rem 0.19rem 0.47rem 0rem rgba(255, 160, 28, 0.05);
+  .menu_item_icon {
+    width: 3.71rem;
+    height: 3.71rem;
+    margin-right: 0.45rem;
+  }
+  .menu_item_info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    .menu_item_title {
+      font-size: 0.72rem;
+      line-height: 0.85rem;
+      font-weight: 500;
+    }
+    .menu_item_subTitle {
+      color: #66666699;
+      font-size: 0.59rem;
+      line-height: 0.69rem;
+      margin-top: 0.63rem;
+    }
+  }
+}

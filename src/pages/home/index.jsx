@@ -13,7 +13,7 @@ export default function Index() {
   return (
     <View className='index'>
       <Header leftShow title='首页' />
-      <text onClick={()=>{
+      <text onTap={()=>{
         Taro.navigateTo({url:"/pages/page2/index"})
       }}>登陆成功</text>
     </View>
