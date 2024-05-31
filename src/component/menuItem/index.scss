@@ -1,17 +1,18 @@
 .menu_item {
-  padding: 0.5rem 0.63rem;
+  padding: 22px 28px;
   display: flex;
   align-items: center;
   background: rgba(255, 255, 255, 1);
-  border-radius: 0.45rem;
+  border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 15.72rem;
-  box-shadow: 0rem 0.19rem 0.47rem 0rem rgba(255, 160, 28, 0.05);
+  margin-left: 28px;
+  margin-right: 28px;
+  box-shadow: 0px 8 20px 0px rgba(255, 160, 28, 0.05);
   .menu_item_icon {
-    width: 3.71rem;
-    height: 3.71rem;
-    margin-right: 0.45rem;
+    width: 164px;
+    height: 164px;
+    margin-right: 20px;
   }
   .menu_item_info {
     display: flex;
@@ -19,15 +20,15 @@
     flex: 1;
     justify-content: center;
     .menu_item_title {
-      font-size: 0.72rem;
-      line-height: 0.85rem;
+      font-size: 32px;
+      line-height: 38px;
       font-weight: 500;
     }
     .menu_item_subTitle {
       color: #66666699;
-      font-size: 0.59rem;
-      line-height: 0.69rem;
-      margin-top: 0.63rem;
+      font-size: 26px;
+      line-height: 30px;
+      margin-top: 28px;
     }
   }
 }
