@@ -3,8 +3,6 @@ import "./index.scss";
 import { AtNavBar } from "taro-ui";
 import Taro from "@tarojs/taro";
 import Steps from "../Steps";
-import { useState } from "react";
-import RealName from "../../pages/myWorkInfo/components/realName";
 
 export default function StepWrap({ current, children }) {
   return (

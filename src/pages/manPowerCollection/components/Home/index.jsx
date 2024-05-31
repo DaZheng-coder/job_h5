@@ -17,7 +17,7 @@ export default function Home() {
         title="个人劳动力收集"
         subTitle="输入您的劳动力收集信息"
         icon={MpcIcon}
-        onClick={() => Taro.navigateTo({ url: "/pages/myWorkInfo/index" })}
+        onClick={() => Taro.navigateTo({ url: "/pages/manPowerCollection/myWorkInfo/index" })}
       />
     </>
   );

@@ -1,9 +1,9 @@
-import MenuItem from "../../../../component/menuItem";
+import MenuItem from "../../../../../component/menuItem";
 import "./index.scss";
 import { View } from "@tarojs/components";
-import Screen from "../../../../assets/mpc_screen.png";
-import Input from "../../../../assets/mpc_input.png";
-import OneIn from "../../../../assets/mpc_one_in.png";
+import Screen from "../../../../../assets/mpc_screen.png";
+import Input from "../../../../../assets/mpc_input.png";
+import OneIn from "../../../../../assets/mpc_one_in.png";
 import Taro from "@tarojs/taro";
 
 export default function RealName() {
@@ -21,7 +21,7 @@ export default function RealName() {
       subTitle: "拍照自动识别实名身份",
       onClick: () =>
         Taro.navigateTo({
-          url: "pages/myWorkInfo/pages/identifyPicture/index",
+          url: "pages/manPowerCollection/myWorkInfo/pages/identifyPicture/index",
         }),
       className: "mt",
     },
@@ -31,7 +31,7 @@ export default function RealName() {
       subTitle: "手动输入实名信息",
       onClick: () =>
         Taro.navigateTo({
-          url: "pages/myWorkInfo/pages/identifyInfo/index",
+          url: "pages/manPowerCollection/myWorkInfo/pages/identifyInfo/index",
         }),
       className: "mt",
     },
