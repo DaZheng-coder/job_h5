@@ -1,0 +1,11 @@
+.float_layout_wrap {
+  .at-float-layout__container {
+    left: 0;
+    width: 100vw !important;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    .layout-body {
+      padding: 0 !important;
+    }
+  }
+}

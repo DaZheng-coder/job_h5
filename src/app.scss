@@ -1,3 +1,23 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.rv-radio-group {
+  padding: 0;
+  --rv-radio-checked-icon-color: #ffa01c;
+  .rv-radio {
+    height: 48px !important;
+    display: inline-flex;
+    align-items: center;
+    .rv-radio__label {
+      font-size: 28px;
+      color: #666;
+      line-height: 48px;
+    }
+  }
+  .rv-radio__icon,
+  .rv-radio__label,
+  .rv-radio {
+    padding: 0;
+  }
+}

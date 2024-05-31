@@ -3,10 +3,14 @@ import { defineConfig } from "@tarojs/cli";
 import devConfig from "./dev";
 import prodConfig from "./prod";
 const { UnifiedWebpackPluginV5 } = require("weapp-tailwindcss/webpack");
+const path = require("path");
 
 // https://taro-docs.jd.com/docs/next/config#defineconfig-辅助函数
 export default defineConfig(async (merge, { command, mode }) => {
   const baseConfig = {
+    alias: {
+      "@/src": path.resolve(__dirname, "..", "src"),
+    },
     projectName: "jm_talent_h5",
     date: "2024-4-16",
     designWidth: 750,

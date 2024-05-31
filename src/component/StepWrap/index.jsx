@@ -4,13 +4,13 @@ import { AtNavBar } from "taro-ui";
 import Taro from "@tarojs/taro";
 import Steps from "../Steps";
 
-export default function StepWrap({ current, children }) {
+export default function StepWrap({ current, children, title }) {
   return (
     <View className="my_work_info_wrap">
       <AtNavBar
         color="#000"
         onClickLeftIcon={() => Taro.navigateBack()}
-        title="个人劳动力信息"
+        title={title}
         leftIconType="chevron-left"
       />
       <Steps
