@@ -1,6 +1,14 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import './custom_theme.scss';
+
+// * {
+//   --cascader-header-font-size: 28px;
+//   --font-size-lg: 28px;
+//   --cascader-header-line-height: 33px;
+//   --cascader-header-height: 64px;
+// }
 
 .rv-radio-group {
   padding: 0;

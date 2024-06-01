@@ -41,9 +41,11 @@
   "author": "",
   "dependencies": {
     "@babel/runtime": "^7.21.5",
+    "@taroify/core": "^0.2.2-alpha.1",
     "@tarojs/components": "3.6.26",
     "@tarojs/helper": "3.6.26",
     "@tarojs/plugin-framework-react": "3.6.26",
+    "@tarojs/plugin-http": "^3.6.30",
     "@tarojs/plugin-platform-alipay": "3.6.26",
     "@tarojs/plugin-platform-h5": "3.6.26",
     "@tarojs/plugin-platform-harmony-hybrid": "3.6.26",
@@ -56,10 +58,11 @@
     "@tarojs/runtime": "3.6.26",
     "@tarojs/shared": "3.6.26",
     "@tarojs/taro": "3.6.26",
+    "axios": "^1.7.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-vant": "^3.3.5",
-    "taro-ui": "^3.3.0"
+    "taro-ui": "^3.3.0",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",

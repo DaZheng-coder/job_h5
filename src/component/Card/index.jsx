@@ -1,9 +1,9 @@
 import { View } from "@tarojs/components";
 import "./index.scss";
 
-export default function Card({ title, extra, children }) {
+export default function MCard({ title, extra, children, className }) {
   return (
-    <View className="card_wrap">
+    <View className={"card_wrap " + className}>
       <View className="header">
         <View className="title">
           <View className="title_line"></View>
@@ -11,7 +11,7 @@ export default function Card({ title, extra, children }) {
         </View>
         <View className="extra">{extra}</View>
       </View>
-      {children}
+      <View>{children}</View>
     </View>
   );
 }

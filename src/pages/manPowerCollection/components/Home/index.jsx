@@ -5,6 +5,7 @@ import MpcIcon from "../../../../assets/mpc_index_icon.png";
 import CoverImg from "../../../../assets/mpc_index_cover.png";
 import CoverText from "../../../../assets/mpc_index_text.png";
 import Taro from "@tarojs/taro";
+import MCard from "@/src/component/Card";
 
 export default function Home() {
   return (
@@ -17,7 +18,9 @@ export default function Home() {
         title="个人劳动力收集"
         subTitle="输入您的劳动力收集信息"
         icon={MpcIcon}
-        onClick={() => Taro.navigateTo({ url: "/pages/manPowerCollection/myWorkInfo/index" })}
+        onClick={() =>
+          Taro.navigateTo({ url: "/pages/manPowerCollection/myWorkInfo/index" })
+        }
       />
     </>
   );

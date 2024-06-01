@@ -9,8 +9,10 @@ export async function post(url, data) {
     const header = token?{
       'content-type': 'application/json',
       'authentication': token,
+      'channelCode': 'jms',
     }: {
       'content-type': 'application/json',
+      'channelCode': 'jms',
     }
     const res = await Taro.request({
       url: `${BASE_URL}${url}`,
@@ -51,11 +53,13 @@ export async function upload(url, filePath) {
 export async function get(url, data) {
   let token = Taro.getStorageSync('token');
   try {
-    const header = token?{
+    const header = token?{ 
       'content-type': 'application/json',
       'authentication': token,
+      'channelCode': 'jms',
     }: {
       'content-type': 'application/json',
+      'channelCode': 'jms',
     }
     const res = await Taro.request({
       url: `${BASE_URL}${url}`,

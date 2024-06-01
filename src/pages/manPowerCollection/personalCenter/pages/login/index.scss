@@ -1,0 +1,29 @@
+.login_container {
+  background-image: url("../../../../../assets/mpc_personal_bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding-top: 96px;
+  .at-checkbox__option--selected {
+    .at-checkbox__icon-cnt {
+      background-color: #ffa01c;
+    }
+  }
+  .at-checkbox__option {
+    padding-left: 0 !important;
+  }
+  .login_checkbox {
+    &::before,
+    &::after {
+      display: none;
+    }
+    .at-checkbox__icon-cnt {
+      width: 25px;
+      min-width: 25px !important;
+      height: 25px;
+    }
+    .at-checkbox__title {
+      font-size: 24px !important;
+    }
+  }
+}

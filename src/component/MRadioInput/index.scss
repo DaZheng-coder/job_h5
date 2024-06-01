@@ -1,0 +1,27 @@
+.radio_input {
+  .at-input__title {
+    width: 80% !important;
+  }
+  .radio-wrap {
+    &:last-child {
+      margin-right: 0;
+    }
+    .radio-circle {
+      width: 42px;
+      height: 42px;
+      border: 1px solid #dcdcdc;
+      border-radius: 50%;
+    }
+
+    .radio_active {
+      width: 42px;
+      height: 42px;
+      border: 1px solid #ffa01c;
+      background: #ffa01c;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

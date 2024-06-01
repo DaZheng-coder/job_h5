@@ -6,12 +6,13 @@ import Steps from "../Steps";
 
 export default function StepWrap({ current, children, title }) {
   return (
-    <View className="my_work_info_wrap">
+    <View className="my_work_info_wrap pt-[96px] pb-[192px]">
       <AtNavBar
         color="#000"
         onClickLeftIcon={() => Taro.navigateBack()}
         title={title}
         leftIconType="chevron-left"
+        fixed
       />
       <Steps
         steps={[

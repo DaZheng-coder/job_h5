@@ -1,6 +1,8 @@
 .container {
-  background-image: url('../../assets//mpc_index_bg.png') ;
+  background-image: url("../../assets//mpc_index_bg.png");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 100%;
+  padding-top: 96px;
+  box-sizing: border-box;
 }

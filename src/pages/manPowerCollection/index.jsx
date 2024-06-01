@@ -9,9 +9,10 @@ import UserActiveSvg from "../../assets/mpc_user_active.svg";
 
 import { useState } from "react";
 import Home from "./components/Home";
-
+import PersonalCenter from "./personalCenter";
+import Taro from "@tarojs/taro";
 export default function MainPowerCollection() {
-  const handleBack = () => {};
+  const handleBack = () => Taro.navigateBack();
   const [activeKey, setActiveKey] = useState("home");
 
   return (
@@ -19,10 +20,11 @@ export default function MainPowerCollection() {
       <AtNavBar
         color="#000"
         onClickLeftIcon={handleBack}
-        title="首页"
+        title={activeKey === "home" ? "首页" : "个人中心"}
         leftIconType="chevron-left"
+        fixed
       />
-      <Home />
+      {activeKey === "home" ? <Home /> : <PersonalCenter />}
       <BottomBar
         items={[
           {

@@ -1,0 +1,27 @@
+.text_input {
+  margin-left: 0 !important;
+  .at-input__children {
+    &::after {
+      display: none !important;
+    }
+  }
+  .at-input__container {
+    justify-content: space-between;
+    .at-input__title {
+      width: 50%;
+    }
+    .weui-input {
+      text-align: right;
+      &::placeholder {
+        color: #999 !important;
+      }
+    }
+  }
+}
+.none_text {
+  .at-input__container {
+    .at-input__input {
+      display: none !important;
+    }
+  }
+}

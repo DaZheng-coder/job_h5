@@ -13,6 +13,10 @@ export default defineAppConfig({
     "pages/manPowerCollection/myWorkInfo/pages/identifyInfo/index",
     "pages/manPowerCollection/myWorkInfo/pages/identifyPicture/index",
     "pages/manPowerCollection/myWorkInfo/pages/trainInfo/index",
+    "pages/manPowerCollection/personalCenter/pages/authentication/index",
+    "pages/manPowerCollection/personalCenter/pages/employDetail/index",
+    "pages/manPowerCollection/personalCenter/pages/employList/index",
+    "pages/manPowerCollection/personalCenter/pages/login/index",
   ],
   window: {
     backgroundTextStyle: "light",
